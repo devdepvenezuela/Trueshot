@@ -25,7 +25,7 @@
         $("#removeMemo").on("tap", function(e) {
             e.preventDefault();
             
-    	    AppUtil.showConfirmationMessage("Are you sure you want to remove this memo?", removeCurrentMemo);
+    	    AppUtil.showConfirmationMessage("Seguro que deseas eliminar esta toma?", removeCurrentMemo);
         });         
         
         $("#recordVoice").on("tap", function(e) {
